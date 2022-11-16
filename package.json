@@ -1,11 +1,16 @@
 {
   "name": "ryanpark8",
   "version": "0.1.0",
+  "homepage": "http://taihan.com.au/",
   "private": true,
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-responsive": "^6.0.1",
+    "react-responsive-carousel": "^3.1.43",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "styled-components": "^4.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +26,12 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "animate.css": "^3.7.0",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-iframe": "^1.4.0",
+    "react-modal": "^3.5.1",
+    "react-router-hash-link": "^1.2.1"
+  }
 }
