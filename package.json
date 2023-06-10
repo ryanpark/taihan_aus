@@ -9,14 +9,12 @@
     "react-responsive": "^6.0.1",
     "react-responsive-carousel": "^3.1.43",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1",
     "styled-components": "^4.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,10 +26,14 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@vitejs/plugin-react": "^2.2.0",
     "animate.css": "^3.7.0",
     "react-animate-on-scroll": "^2.1.5",
     "react-iframe": "^1.4.0",
     "react-modal": "^3.5.1",
-    "react-router-hash-link": "^1.2.1"
+    "react-router-hash-link": "^1.2.1",
+    "vite": "^3.2.4",
+    "vite-plugin-svgr": "^2.2.2",
+    "vite-tsconfig-paths": "^3.5.2"
   }
 }
