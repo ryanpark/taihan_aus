@@ -183,7 +183,7 @@ export default class Global extends React.Component {
 
     this.state = {
       modalIsOpen: false,
-      location: {}
+      location: {},
     };
 
     this.openModal = this.openModal.bind(this);
@@ -239,11 +239,11 @@ export default class Global extends React.Component {
                   contentLabel="Example Modal"
                   style={{
                     overlay: {
-                      zIndex: 999999
+                      zIndex: 999999,
                     },
                     content: {
-                      background: "#003084"
-                    }
+                      background: "#003084",
+                    },
                   }}
                 >
                   <LocationContent>
@@ -282,53 +282,34 @@ export default class Global extends React.Component {
                     <tr>
                       <td>
                         <Line>
-                          <strong>M-TEC</strong>
+                          <strong>Taihan VINA</strong>
                         </Line>
                         <Line>
-                          1 Steel Road, Peacehaven, Vereeniging 1939, <br />
-                          Gauteng, South Africa
+                          21-23 Nguyen Thi Minh Khai Street, <br />
+                          Ben Nghe Ward, Distric 1, HCM City
                         </Line>
-                        <Line>
-                          T +27-16-450-8220 <br />F +27-16-450-8202
-                          <br />E info@m-tec.co.za
-                          <br />W www.m-tec.co.za
-                        </Line>
+                        <Line>taihan@taihancable.com</Line>
                       </td>
                       <td>
                         <Line>
-                          <strong>Taihan VNA</strong>
+                          <strong>Taihan Saudi</strong>
                         </Line>
-                        <Line>
-                          Factory : Long Thanh IZ, <br />
-                          Dong Nai Province, Vietnam HCMC
-                          <br />
-                          Rep : 2nd floor, 617 Dien <br />
-                          Bien Phu Str., W.25, Binh Thanh District, <br />
-                          HCMC, Vietnam.
-                          <br />
-                        </Line>
-                        <Line>
-                          T +84-28-3518-0786 <br />
-                          F +84-28-3518-0785 <br />
-                          E ysshin@taihancable.com
-                          <br />W www.taihancable.com.vn
-                        </Line>
+                        <Line>hslee0822@taihan.com</Line>
                       </td>
                     </tr>
                     <tr>
                       <td>
                         <Line>
-                          <strong>Taihan Saudi</strong>
+                          <strong>Taihan Netherlands</strong>
                         </Line>
                         <Line>
-                          Exit-12, Al Kharj Road, <br />
-                          PO Box 31329,
-                          <br /> Riyadh 11497, K.S.A
+                          Stroombaan 4(1181 VX), <br />
+                          Amsterveen, Netherlands
                         </Line>
                         <Line>
-                          T +966-11-214-2012
-                          <br />F +966-11-214-2237
-                          <br />E sikim@taihan.com | si.kim@sauditaihan.com
+                          T +31-20-358-3541
+                          <br />
+                          jhhan@taihan.com
                         </Line>
                       </td>
                       <td>
@@ -336,14 +317,45 @@ export default class Global extends React.Component {
                           <strong>Taihan USA</strong>
                         </Line>
                         <Line>
-                          12016 Telegraph Rd., <br />
-                          Suite 200 Santa Fe Springs,
-                          <br /> CA 90670 USA
-                          <br />
+                          99 Tulip Ave, Floral Park,
+                          <br /> New York 11001, US
+                        </Line>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <Line>
+                          <strong>Taihan Kuwait</strong>
                         </Line>
                         <Line>
-                          T +1-562-946-8500 <br />F +1-562-946-0200 <br />E
-                          cwlee@taihanusa.com | cwlee@taihan.com
+                          plot no. 123, 125, 127, 129 & 131 in Mina Abdullah
+                          <br /> Industrial Area-sector 21, Kuwait
+                        </Line>
+                        <Line>
+                          T: +965-9727-4637
+                          <br />
+                          F: +965-2552-8508
+                          <br />
+                          E: jmcho@taihan.com
+                        </Line>
+                      </td>
+                      <td>
+                        <Line>
+                          <strong>Saudi Taihan Cable & Solution</strong> (In the
+                          process of establishing)
+                        </Line>
+                        <Line>
+                          Office No. 18, 3rd Floor, Complex(7) Commercial <br />
+                          Center, King Abdul Aziz Road <br />
+                          (Near Kingdom Hospital & Kingdom School) P.O.Box
+                          300201, Riyadh 11372, KSA
+                        </Line>
+                        <Line>
+                          T: +966-11-230-1554
+                          <br />
+                          F: +966-11-229-7754
+                          <br />
+                          frkwak@taihan.com
                         </Line>
                       </td>
                     </tr>
@@ -359,32 +371,18 @@ export default class Global extends React.Component {
                         <Line>
                           <strong>Saudi</strong>
                         </Line>
+
                         <Line>
-                          Office No.18, 3rd Floor, Complex(7) Commercial Center
+                          T +966-11-230-1554 <br />F +966-11-229-7754
                           <br />
-                          King Abdul Aziz Road P.O.Box300201, <br /> Riyadh
-                          11372, K.S.A.
-                          <br />
-                        </Line>
-                        <Line>
-                          T +966-11-410-1773 <br />F +966-11-419-0262
-                          <br />E jhshim@taihan.com | hslee0822@taihan.com
+                          hslee0822@taihan.com
                         </Line>
                       </td>
                       <td>
                         <Line>
                           <strong>Dubai</strong>
                         </Line>
-                        <Line>
-                          Office No.908, Al Shafar Tower 1, <br />
-                          TECOM, P.O.Box 117561,
-                          <br />
-                          Dubai, UAE <br />
-                        </Line>
-                        <Line>
-                          T +971-4-368-8988 <br />F +971-4-368-6779 <br /> E
-                          jshuh@taihan.com | sales@taihan.ae
-                        </Line>
+                        <Line> seanlee@taihan.com | info@taihan.ae</Line>
                       </td>
                     </tr>
                     <tr>
@@ -393,58 +391,65 @@ export default class Global extends React.Component {
                           <strong>Abu Dhabi</strong>
                         </Line>
                         <Line>
-                          Office No. 1902, Bin Hamoodah Tower,
-                          <br /> Khaleej Al Arabi St. PO Box 54562,
-                          <br /> Abu Dhabi, UAE
-                          <br />
-                        </Line>
-                        <Line>
-                          T +1-562-946-8500 <br />F +1-562-946-0200
-                          <br />E jshuh@taihan.com
+                          T: +971-2-627-1847 <br />
+                          F: +971-2-627-1843
+                          <br /> seanlee@taihan.com
                         </Line>
                       </td>
                       <td>
                         <Line>
                           <strong>Australia</strong>
                         </Line>
+
                         <Line>
-                          Suite 704, 815 Pacific Highway, <br />
-                          Chatswood, NSW 2067, Australia
-                          <br />
-                        </Line>
-                        <Line>
-                          T +61-2-9411-7564 <br />F +61-2-9411-7579 <br /> E
-                          sw1012@taihan.com | sw1012@taihan.com.au
+                          jameskim@taihan.com | daniellee@taihan.com.au
                         </Line>
                       </td>
                     </tr>
                     <tr>
                       <td>
                         <Line>
-                          <strong>New Zealand</strong>
+                          <strong>Qatar</strong>
                         </Line>
                         <Line>
-                          7/325 Ti Rakau Drive, Burswood,
-                          <br /> Auckland 2013, New Zealand
+                          Office No. 12, Building No. 340, Zone 24, <br />
+                          Street No. 230 Al Muntaza Doha-Qatar
                         </Line>
                         <Line>
-                          T +64-9-973-5062
-                          <br />E c.kim@taihan.co.nz
+                          T +974-4414-6357 <br />F +974-4415-2243
+                          <br />
+                          colee@taihan.com
                         </Line>
+                      </td>
+
+                      <td>
+                        <Line>
+                          <strong>Kuwait</strong>
+                        </Line>
+                        <Line>
+                          House No. 8, Basement, Street No. 26, Block No. 4,
+                          <br />
+                          Sabah Al-Salem, State of Kuwait
+                        </Line>
+                        <Line>
+                          T +965-2552-8642 <br />
+                          janghee@taihan.com
+                        </Line>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <Line>
+                          <strong>Sweden</strong>
+                        </Line>
+                        <Line>Drottninggatan 86 111 36 STOCKHOLM</Line>
+                        <Line>jhhan@taihan.com</Line>
                       </td>
                       <td>
                         <Line>
                           <strong>Singapore</strong>
                         </Line>
-                        <Line>
-                          150 Kampong Ampat #07-04 KA CENTRE Singapore 368324,
-                          <br />
-                          Republic of Singapore
-                        </Line>
-                        <Line>
-                          T +65-6842-5069 <br />F +65-6842-5076 <br /> E
-                          jsnam@taihan.com | yda23@taihan.com
-                        </Line>
+                        <Line>jshuh@taihan.com | bheeyup@taihan.com</Line>
                       </td>
                     </tr>
                     <tr>
@@ -460,7 +465,8 @@ export default class Global extends React.Component {
                         <Line>
                           T +60-3-9285-8017
                           <br /> F +60-3-9200-1136
-                          <br />E jsnam@taihan.com | nor@taihan.com.my
+                          <br />
+                          jshuh@taihan.com | nor@taihan.com.my
                         </Line>
                       </td>
                       <td>
@@ -468,12 +474,6 @@ export default class Global extends React.Component {
                           <strong>Indonesia</strong>
                         </Line>
                         <Line>
-                          Graha Surveyor Indonesia, <br />
-                          19th Floor Suite 1903 Jl.Gatot Subroto Kav.
-                          <br /> 56 Jakarata Selatan 12950, Indonesia
-                        </Line>
-                        <Line>
-                          T +62 21 2941 0780 <br />F +62 21 2941 0775 <br /> E
                           jsnam@taihan.com | veiky.taufik@taihan.co.id
                         </Line>
                       </td>
@@ -489,50 +489,35 @@ export default class Global extends React.Component {
                           CA90670, USA
                         </Line>
                         <Line>
-                          T +1-562-946-8500
-                          <br /> F +1-562-946-0200
-                          <br />E cwlee@taihanusa.com | cwlee@taihan.com
+                          krkycho2@taihanusa.com | bryce@taihanusa.com
                         </Line>
                       </td>
                       <td>
                         <Line>
                           <strong>USA New Jersey</strong>
                         </Line>
-                        <Line>
-                          560 Sylvan Ave 3rd Floor Englewood Cliffs, <br />
-                          NJ 07632
-                        </Line>
-                        <Line>
-                          T +1-201-569-2493 <br /> E dookim@taihanusa.com
-                        </Line>
+
+                        <Line>okkwon@taihanusa.com | manny@taihanusa.com</Line>
                       </td>
                     </tr>
                     <tr>
                       <td>
                         <Line>
-                          <strong>Russia</strong>
+                          <strong>UK</strong>
                         </Line>
                         <Line>
-                          117335, Moscow, Vavilova street,
-                          <br /> 69/75, office no. 1133, Russia
-                        </Line>
-                        <Line>
-                          T +7- 495-225-9591
-                          <br />E alexlee@taihan.com
+                          dwafe122@taihan.com | songyun.seol@taihan.com |
+                          info@taihan.co.uk
                         </Line>
                       </td>
                       <td>
                         <Line>
-                          <strong>UK</strong>
+                          <strong>Denmark</strong>
                         </Line>
                         <Line>
-                          9 Teddington Business Park, Station Road, <br />
-                          Teddington, Middlesex TW11 9BQ, UK
+                          Herlev Hovedgade 195, DK-2730 Herlve, Denmark
                         </Line>
-                        <Line>
-                          T +44-20-8943-4901 <br /> E jhhan@taihan.com
-                          taihanuk@taihan.com
-                        </Line>
+                        <Line>jhhan@taihan.com</Line>
                       </td>
                     </tr>
                   </tbody>
@@ -547,38 +532,28 @@ export default class Global extends React.Component {
                     <tr>
                       <td>
                         <Line>
-                          <strong>M-TEC</strong>
+                          <strong>Taihan VINA</strong>
                         </Line>
                         <Line>
-                          1 Steel Road, Peacehaven, Vereeniging 1939, <br />
-                          Gauteng, South Africa
+                          21-23 Nguyen Thi Minh Khai Street, <br />
+                          Ben Nghe Ward, Distric 1, HCM City
                         </Line>
-                        <Line>
-                          T +27-16-450-8220 <br />F +27-16-450-8202
-                          <br />E info@m-tec.co.za
-                          <br />W www.m-tec.co.za
-                        </Line>
+                        <Line>taihan@taihancable.com</Line>
                       </td>
                     </tr>
                     <tr>
                       <td>
                         <Line>
-                          <strong>Taihan VNA</strong>
+                          <strong>Taihan Netherlands</strong>
                         </Line>
                         <Line>
-                          Factory : Long Thanh IZ, <br />
-                          Dong Nai Province, Vietnam HCMC
-                          <br />
-                          Rep : 2nd floor, 617 Dien <br />
-                          Bien Phu Str., W.25, Binh Thanh District, <br />
-                          HCMC, Vietnam.
-                          <br />
+                          Stroombaan 4(1181 VX), <br />
+                          Amsterveen, Netherlands
                         </Line>
                         <Line>
-                          T +84-28-3518-0786 <br />
-                          F +84-28-3518-0785 <br />
-                          E ysshin@taihancable.com
-                          <br />W www.taihancable.com.vn
+                          T +31-20-358-3541
+                          <br />
+                          jhhan@taihan.com
                         </Line>
                       </td>
                     </tr>
@@ -587,16 +562,7 @@ export default class Global extends React.Component {
                         <Line>
                           <strong>Taihan Saudi</strong>
                         </Line>
-                        <Line>
-                          Exit-12, Al Kharj Road, <br />
-                          PO Box 31329,
-                          <br /> Riyadh 11497, K.S.A
-                        </Line>
-                        <Line>
-                          T +966-11-214-2012
-                          <br />F +966-11-214-2237
-                          <br />E sikim@taihan.com | si.kim@sauditaihan.com
-                        </Line>
+                        <Line>hslee0822@taihan.com</Line>
                       </td>
                     </tr>
                     <tr>
@@ -605,14 +571,47 @@ export default class Global extends React.Component {
                           <strong>Taihan USA</strong>
                         </Line>
                         <Line>
-                          12016 Telegraph Rd., <br />
-                          Suite 200 Santa Fe Springs,
-                          <br /> CA 90670 USA
-                          <br />
+                          99 Tulip Ave, Floral Park,
+                          <br /> New York 11001, US
+                        </Line>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <Line>
+                          <strong>Taihan Kuwait</strong>
                         </Line>
                         <Line>
-                          T +1-562-946-8500 <br />F +1-562-946-0200 <br />E
-                          cwlee@taihanusa.com | cwlee@taihan.com
+                          plot no. 123, 125, 127, 129 & 131 in Mina Abdullah
+                          <br /> Industrial Area-sector 21, Kuwait
+                        </Line>
+                        <Line>
+                          T: +965-9727-4637
+                          <br />
+                          F: +965-2552-8508
+                          <br />
+                          jmcho@taihan.com
+                        </Line>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <Line>
+                          <strong>Saudi Taihan Cable & Solution</strong> (In the
+                          process of establishing)
+                        </Line>
+                        <Line>
+                          Office No. 18, 3rd Floor, Complex(7) Commercial <br />
+                          Center, King Abdul Aziz Road <br />
+                          (Near Kingdom Hospital & Kingdom School) P.O.Box
+                          300201, Riyadh 11372, KSA
+                        </Line>
+                        <Line>
+                          T: +966-11-230-1554
+                          <br />
+                          F: +966-11-229-7754
+                          <br />
+                          frkwak@taihan.com
                         </Line>
                       </td>
                     </tr>
@@ -628,16 +627,11 @@ export default class Global extends React.Component {
                         <Line>
                           <strong>Saudi</strong>
                         </Line>
+
                         <Line>
-                          Office No.18, 3rd Floor, Complex(7) Commercial Center
+                          T +966-11-230-1554 <br />F +966-11-229-7754
                           <br />
-                          King Abdul Aziz Road P.O.Box300201, <br /> Riyadh
-                          11372, K.S.A.
-                          <br />
-                        </Line>
-                        <Line>
-                          T +966-11-410-1773 <br />F +966-11-419-0262
-                          <br />E jhshim@taihan.com | hslee0822@taihan.com
+                          hslee0822@taihan.com
                         </Line>
                       </td>
                     </tr>
@@ -646,16 +640,8 @@ export default class Global extends React.Component {
                         <Line>
                           <strong>Dubai</strong>
                         </Line>
-                        <Line>
-                          Office No.908, Al Shafar Tower 1, <br />
-                          TECOM, P.O.Box 117561,
-                          <br />
-                          Dubai, UAE <br />
-                        </Line>
-                        <Line>
-                          T +971-4-368-8988 <br />F +971-4-368-6779 <br /> E
-                          jshuh@taihan.com | sales@taihan.ae
-                        </Line>
+
+                        <Line> seanlee@taihan.com | info@taihan.ae</Line>
                       </td>
                     </tr>
                     <tr>
@@ -664,14 +650,9 @@ export default class Global extends React.Component {
                           <strong>Abu Dhabi</strong>
                         </Line>
                         <Line>
-                          Office No. 1902, Bin Hamoodah Tower,
-                          <br /> Khaleej Al Arabi St. PO Box 54562,
-                          <br /> Abu Dhabi, UAE
+                          T +971-2-627-1847 <br />F +971-2-627-1843
                           <br />
-                        </Line>
-                        <Line>
-                          T +1-562-946-8500 <br />F +1-562-946-0200
-                          <br />E jshuh@taihan.com
+                          seanlee@taihan.com
                         </Line>
                       </td>
                     </tr>
@@ -681,45 +662,48 @@ export default class Global extends React.Component {
                           <strong>Australia</strong>
                         </Line>
                         <Line>
-                          Suite 704, 815 Pacific Highway, <br />
-                          Chatswood, NSW 2067, Australia
-                          <br />
-                        </Line>
-                        <Line>
-                          T +61-2-9411-7564 <br />F +61-2-9411-7579 <br /> E
-                          sw1012@taihan.com | sw1012@taihan.com.au
+                          jameskim@taihan.com | daniellee@taihan.com.au
                         </Line>
                       </td>
                     </tr>
                     <tr>
                       <td>
                         <Line>
-                          <strong>New Zealand</strong>
+                          <strong>Qatar</strong>
                         </Line>
                         <Line>
-                          7/325 Ti Rakau Drive, Burswood,
-                          <br /> Auckland 2013, New Zealand
+                          Office No. 12, Building No. 340, Zone 24, <br />
+                          Street No. 230 Al Muntaza Doha-Qatar
                         </Line>
                         <Line>
-                          T +64-9-973-5062
-                          <br />E c.kim@taihan.co.nz
+                          T +974-4414-6357 <br />F +974-4415-2243
+                          <br /> colee@taihan.com
                         </Line>
                       </td>
                     </tr>
+                    <tr>
+                      <td>
+                        <Line>
+                          <strong>Kuwait</strong>
+                        </Line>
+                        <Line>
+                          House No. 8, Basement, Street No. 26, Block No. 4,
+                          <br />
+                          Sabah Al-Salem, State of Kuwait
+                        </Line>
+                        <Line>
+                          T +965-2552-8642 <br />
+                          janghee@taihan.com
+                        </Line>
+                      </td>
+                    </tr>
+
                     <tr>
                       <td>
                         <Line>
                           <strong>Singapore</strong>
                         </Line>
-                        <Line>
-                          150 Kampong Ampat #07-04 KA CENTRE Singapore 368324,
-                          <br />
-                          Republic of Singapore
-                        </Line>
-                        <Line>
-                          T +65-6842-5069 <br />F +65-6842-5076 <br /> E
-                          jsnam@taihan.com | yda23@taihan.com
-                        </Line>
+                        <Line> jshuh@taihan.com | bheeyup@taihan.com</Line>
                       </td>
                     </tr>
                     <tr>
@@ -735,7 +719,8 @@ export default class Global extends React.Component {
                         <Line>
                           T +60-3-9285-8017
                           <br /> F +60-3-9200-1136
-                          <br />E jsnam@taihan.com | nor@taihan.com.my
+                          <br />
+                          jshuh@taihan.com | nor@taihan.com.my
                         </Line>
                       </td>
                     </tr>
@@ -745,13 +730,7 @@ export default class Global extends React.Component {
                           <strong>Indonesia</strong>
                         </Line>
                         <Line>
-                          Graha Surveyor Indonesia, <br />
-                          19th Floor Suite 1903 Jl.Gatot Subroto Kav.
-                          <br /> 56 Jakarata Selatan 12950, Indonesia
-                        </Line>
-                        <Line>
-                          T +62 21 2941 0780 <br />F +62 21 2941 0775 <br /> E
-                          jsnam@taihan.com | veiky.taufik@taihan.co.id
+                          jshuh@taihan.com | veiky.taufik@taihan.co.id
                         </Line>
                       </td>
                     </tr>
@@ -766,9 +745,7 @@ export default class Global extends React.Component {
                           CA90670, USA
                         </Line>
                         <Line>
-                          T +1-562-946-8500
-                          <br /> F +1-562-946-0200
-                          <br />E cwlee@taihanusa.com | cwlee@taihan.com
+                          krkycho2@taihanusa.com | bryce@taihanusa.com
                         </Line>
                       </td>
                     </tr>
@@ -777,28 +754,8 @@ export default class Global extends React.Component {
                         <Line>
                           <strong>USA New Jersey</strong>
                         </Line>
-                        <Line>
-                          560 Sylvan Ave 3rd Floor Englewood Cliffs, <br />
-                          NJ 07632
-                        </Line>
-                        <Line>
-                          T +1-201-569-2493 <br /> E dookim@taihanusa.com
-                        </Line>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <Line>
-                          <strong>Russia</strong>
-                        </Line>
-                        <Line>
-                          117335, Moscow, Vavilova street,
-                          <br /> 69/75, office no. 1133, Russia
-                        </Line>
-                        <Line>
-                          T +7- 495-225-9591
-                          <br />E alexlee@taihan.com
-                        </Line>
+
+                        <Line>okkwon@taihanusa.com | manny@taihanusa.com</Line>
                       </td>
                     </tr>
                     <tr>
@@ -806,14 +763,31 @@ export default class Global extends React.Component {
                         <Line>
                           <strong>UK</strong>
                         </Line>
+
                         <Line>
-                          9 Teddington Business Park, Station Road, <br />
-                          Teddington, Middlesex TW11 9BQ, UK
+                          dwafe122@taihan.com | songyun.seol@taihan.com |
+                          info@taihan.co.uk
+                        </Line>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <Line>
+                          <strong>Denmark</strong>
                         </Line>
                         <Line>
-                          T +44-20-8943-4901 <br /> E jhhan@taihan.com
-                          taihanuk@taihan.com
+                          Herlev Hovedgade 195, DK-2730 Herlve, Denmark
                         </Line>
+                        <Line>jhhan@taihan.com</Line>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <Line>
+                          <strong>Sweden</strong>
+                        </Line>
+                        <Line>Drottninggatan 86 111 36 STOCKHOLM</Line>
+                        <Line>jhhan@taihan.com</Line>
                       </td>
                     </tr>
                   </tbody>

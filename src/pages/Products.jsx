@@ -181,7 +181,7 @@ export default class Products extends React.Component {
             <List>
               <Img alt="power cable" src={pcone} />
               <Link
-                href="http://www.taihan.com/en/product/downloader.asp?prodCatalogId=42&prodCatalogFileTy=F"
+                href="https://www.taihan.com/customer/catalogue"
                 target="_blank"
               >
                 <PdfIcon /> <span>EHV XLPE Cable</span>
@@ -190,7 +190,7 @@ export default class Products extends React.Component {
             <List>
               <Img alt="power cable" src={pctwo} />
               <Link
-                href="https://www.taihan.com/en/product/downloader.asp?prodCatalogId=46&prodCatalogFileTy=F"
+                href="https://www.taihan.com/customer/catalogue"
                 target="_blank"
               >
                 <PdfIcon /> <span>EHV Cable Accessories</span>
@@ -199,7 +199,7 @@ export default class Products extends React.Component {
             <List>
               <Img alt="power cable" src={pcthree} />
               <Link
-                href="https://www.taihan.com/en/product/downloader.asp?prodCatalogId=40&prodCatalogFileTy=F"
+                href="https://www.taihan.com/customer/catalogue"
                 target="_blank"
               >
                 <PdfIcon /> <span>EHV OF Cable & Accessories</span>
@@ -208,7 +208,7 @@ export default class Products extends React.Component {
             <List>
               <Img alt="power cable" src={pcfour} />
               <Link
-                href="https://www.taihan.com/en/product/downloader.asp?prodCatalogId=43&prodCatalogFileTy=F"
+                href="https://www.taihan.com/customer/catalogue"
                 target="_blank"
               >
                 <PdfIcon /> <span>MV/LV CABLE & WIRE</span>
@@ -219,7 +219,7 @@ export default class Products extends React.Component {
             <List>
               <Img alt="power cable" src={pcfive} />
               <Link
-                href="https://www.taihan.com/en/product/downloader.asp?prodCatalogId=53&prodCatalogFileTy=F"
+                href="https://www.taihan.com/customer/catalogue"
                 target="_blank"
               >
                 <PdfIcon /> <span>ACCC Conductors</span>
@@ -228,25 +228,25 @@ export default class Products extends React.Component {
             <List>
               <Img alt="power cable" src={pcsix} />
               <Link
-                href="https://www.taihan.com/en/product/downloader.asp?prodCatalogId=44&prodCatalogFileTy=F"
+                href="https://www.taihan.com/customer/catalogue"
                 target="_blank"
               >
                 <PdfIcon /> <span>AL Conductors</span>
               </Link>
             </List>
             <List>
-              <Img alt="power cable" src={pcseven} />
+              <Img alt="power cable" src={pcseven} width="236" height="328" />
               <Link
-                href="https://www.taihan.com/en/product/downloader.asp?prodCatalogId=48&prodCatalogFileTy=F"
+                href="https://www.taihan.com/customer/catalogue"
                 target="_blank"
               >
                 <PdfIcon /> <span>T-BUSWAY BUSDUCT SYSTEM</span>
               </Link>
             </List>
             <List>
-              <Img alt="power cable" src={pceight} />
+              <Img alt="power cable" src={pceight} width="236" height="328" />
               <Link
-                href="https://www.taihan.com/en/product/downloader.asp?prodCatalogId=58&prodCatalogFileTy=F"
+                href="https://www.taihan.com/customer/catalogue"
                 target="_blank"
               >
                 <PdfIcon />
@@ -280,19 +280,10 @@ export default class Products extends React.Component {
               <List>
                 <Img alt="power cable" src={pcnine} />
                 <Link
-                  href="http://www.taihan.com/product/downloader.asp?prodCatalogId=2&prodCatalogFileTy=F"
+                  href="https://www.taihan.com/customer/catalogue"
                   target="_blank"
                 >
                   <PdfIcon /> <span>Link Master</span>
-                </Link>
-              </List>
-              <List>
-                <Img alt="power cable" src={pcten} />
-                <Link
-                  href="https://www.taihan.com/en/product/downloader.asp?prodCatalogId=18&prodCatalogFileTy=F"
-                  target="_blank"
-                >
-                  <PdfIcon /> <span>Communication Cable</span>
                 </Link>
               </List>
             </Listing>
@@ -321,7 +312,7 @@ export default class Products extends React.Component {
             <List>
               <Img alt="power cable" src={pceleven} />
               <Link
-                href="https://www.taihan.com/en/product/downloader.asp?prodCatalogId=49&prodCatalogFileTy=F"
+                href="https://www.taihan.com/customer/catalogue"
                 target="_blank"
               >
                 <PdfIcon /> <span>Copper Rod</span>
