@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "homepage": "http://taihan.com.au/",
   "private": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
