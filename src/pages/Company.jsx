@@ -1,21 +1,32 @@
 import React from "react";
 import styled from "styled-components";
-import bg from "../components/company/bgcompany.png";
+import bg from "../components/company/bg-company-b.jpg";
 import person from "../components/home/superpower.jpg";
 
 import { color, screen } from "../global/constant";
 const Container = styled.div`
   margin: 0 auto;
-  background: url(${bg});
-  background-repeat: no-repeat;
+
   background-color: ${color.blue};
   position: relative;
 `;
 const Hero = styled.div`
+  background: url(${bg});
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 95px 30px 30px 30px;
 
-  @media ${screen.mdUp} {
-    padding: 150px;
+  @media ${screen.smDown} {
+    background-position-x: -419px;
+    background-position-y: -204px;
+    background-size: auto;
+  }
+
+  @media ${screen.lgUp} {
+    padding: 60px 150px 160px 150px;
+  }
+  @media ${screen.xxlgUp} {
+    background-position-y: -144px;
   }
 `;
 

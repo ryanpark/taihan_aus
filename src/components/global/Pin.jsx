@@ -1,14 +1,14 @@
 import React from "react";
 
-export default props => (
+export default (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 431.96 650"
     className={props.location}
     style={{ cursor: "pointer" }}
-    onClick={e => props.openModal(props.location)}
+    onClick={(e) => props.openModal(props.location)}
   >
-    <title>Untitled-3</title>
+    <title>{props.location}</title>
     <path
       d="M541.39,215.45c0,119.28-216,434-216,434s-216-314.73-216-434,96.7-216,216-216S541.39,96.16,541.39,215.45Z"
       transform="translate(-109.43 0.54)"
