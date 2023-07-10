@@ -157,6 +157,26 @@ const GlobalMap = styled.div`
     bottom: 505px;
     left: 568px;
   }
+  svg.Netherlands {
+    top: 349px;
+    left: 473px;
+  }
+  svg.Kuwait {
+    bottom: 506px;
+    left: 578px;
+  }
+  svg.saudiTaihan {
+    bottom: 526px;
+    left: 578px;
+  }
+  svg.Sweden {
+    top: 329px;
+    left: 498px;
+  }
+  svg.Denmark {
+    top: 299px;
+    left: 513px;
+  }
 `;
 
 const Header = styled.h2`
@@ -195,7 +215,9 @@ export default class Global extends React.Component {
     props.updatePageLocation("Global");
   }
   renderModal(location) {
+    console.log(location);
     const selectionLocation = getLocation(location);
+    console.log(selectionLocation);
     this.setState({ location: selectionLocation });
   }
   openModal(location) {
@@ -231,6 +253,11 @@ export default class Global extends React.Component {
                 <Pin location="AbuDubai" openModal={this.openModal} />
                 <Pin location="Saudi" openModal={this.openModal} />
                 <PinV location="SaudiArabia" openModal={this.openModal} />
+                <PinV location="Netherlands" openModal={this.openModal} />
+                <PinV location="Kuwait" openModal={this.openModal} />
+                <PinV location="saudiTaihan" openModal={this.openModal} />
+                <Pin location="Sweden" openModal={this.openModal} />
+                <Pin location="Denmark" openModal={this.openModal} />
                 <Modal
                   isOpen={this.state.modalIsOpen}
                   onAfterOpen={this.afterOpenModal}

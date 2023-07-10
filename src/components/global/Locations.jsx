@@ -31,12 +31,23 @@ const locations = [
     gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.229221209656!2d46.67452301526292!3d24.753328755638517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03a660284fbf%3A0x40095046d1eae3ec!2sKing+Abdul+Aziz+Rd%2C+Riyadh+Saudi+Arabia!5e0!3m2!1sen!2sau!4v1548068431786",
   },
   {
-    name: "Saudi Arabia",
-    title: "Saudi Taihan Branch Office",
-    address: "Al-Kharj Road, Exit 12, P.O Box 31329, Riyadh 11497, KSA",
+    name: "Kuwait",
+    title: "Taihan Kuwait",
+    address:
+      "plot no. 123, 125, 127, 129 & 131 in Mina Abdullah Industrial Area-sector 21, Kuwait",
     tel: "+966-11-214- 2012 ",
     fax: "966-11-214-2237",
-    email: "si.kim@sauditaihan.com | si.kim@sauditaihan.com",
+    email: "frkwak@taihan.com",
+    web: "",
+    gmap: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d13957.191755531576!2d48.150871254341936!3d29.008168157383803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sau!4v1688957422077!5m2!1sen!2sau",
+  },
+  {
+    name: "SaudiArabia",
+    title: "Saudi Taihan Branch Office",
+    address: "Exit-12, Al Kharj Road, PO Box 31329, Riyadh 11497, K.S.A",
+    tel: "+966-11-214- 2012 ",
+    fax: "966-11-214-2237",
+    email: "frkwak@taihan.com",
     web: "",
     gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3626.603173661548!2d46.734663815261335!3d24.637358360230085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f05c367756c9f%3A0x7149b2cca04ebe0d!2s11497+Al+Kharj+Rd%2C+As+Salhiyah%2C+Riyadh+12662%2C+Saudi+Arabia!5e0!3m2!1sen!2sau!4v1548069749079",
   },
@@ -52,7 +63,7 @@ const locations = [
     gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.1006794075433!2d55.17198491526788!3d25.098453041858086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b70ebc0a1a7%3A0xf9a4566a5c635a60!2sAl+Shafar+Tower+1+-+Dubai+-+United+Arab+Emirates!5e0!3m2!1sen!2sau!4v1548068801855",
   },
   {
-    name: "Abu Dubai",
+    name: "AbuDubai",
     title: "Abu Dhabi Branch Office",
     address:
       "Office No. 1902, Bin Hamoodah Tower, Khaleej Al Arabi St. PO Box 54562, Abu Dhabi, UAE",
@@ -139,6 +150,25 @@ const locations = [
     gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3565.6596770762617!2d27.944751915039525!3d-26.659376783237317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9457a754905a29%3A0xafef9a23b8690f2f!2s1+Steel+Rd%2C+Vereeniging%2C+1939%2C+South+Africa!5e0!3m2!1sen!2sau!4v1548073659533",
   },
   {
+    name: "Netherlands",
+    title: "Taihan Netherlands",
+    address: "Stroombaan 4(1181 VX), Amsterveen, Netherlands",
+    tel: "+31-20-358-3541",
+    email: "jhhan@taihan.com",
+    web: "",
+    gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63348.03190579669!2d4.837408929704689!3d52.29744516500818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c60a87e170e9d9%3A0x80c2ecb57d9be7d9!2sStroombaan%204%2C%201181%20VX%20Amstelveen%2C%20Netherlands!5e0!3m2!1sen!2sau!4v1688956538516!5m2!1sen!2sau",
+  },
+  {
+    name: "Kuwait",
+    title: "Taihan Kuwait",
+    address:
+      "plot no. 123, 125, 127, 129 & 131 in Mina Abdullah Industrial Area-sector 21, Kuwait",
+    tel: "+965-9727-4637",
+    email: "jmcho@taihan.com",
+    web: "",
+    gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63348.03190579669!2d4.837408929704689!3d52.29744516500818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c60a87e170e9d9%3A0x80c2ecb57d9be7d9!2sStroombaan%204%2C%201181%20VX%20Amstelveen%2C%20Netherlands!5e0!3m2!1sen!2sau!4v1688956538516!5m2!1sen!2sau",
+  },
+  {
     name: "USA",
     title: "Taihan Electric USA, Ltd.",
     address: "12016 Telegraph Rd., Suite 200 Santa Fe Springs, CA 90670 USA",
@@ -167,6 +197,34 @@ const locations = [
     email: "cwlee@taihanusa.com | cwlee@taihan.com",
     web: "",
     gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.921631950702!2d-118.0789286847878!3d33.94314368063572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2d2f82f2acbf1%3A0xd4ef5d20fd60916a!2s12016+Telegraph+Rd+%23200%2C+Santa+Fe+Springs%2C+CA+90670%2C+USA!5e0!3m2!1sen!2sau!4v1548074614118",
+  },
+  {
+    name: "saudiTaihan",
+    title: "Saudi Taihan Cable & Solution",
+    address:
+      "Office No. 18, 3rd Floor, Complex(7) Commercial Center, King Abdul Aziz Road (Near Kingdom Hospital & Kingdom School) P.O.Box 300201, Riyadh 11372, KSA",
+    tel: "+966-11-230-1554",
+    fax: "+966-11-229-7754",
+    email: "frkwak@taihan.com",
+    web: "",
+    gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.195710044395!2d46.63898547525729!3d24.822979877953806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2eead80d6a84bb%3A0x5031fb5289050061!2sKing%20Abdulaziz%20Rd%2C%20Riyadh%20Saudi%20Arabia!5e0!3m2!1sen!2sau!4v1688958061119!5m2!1sen!2sau",
+  },
+
+  {
+    name: "Sweden",
+    title: "Sweden Branch Office",
+    address: "Drottninggatan 86 111 36 STOCKHOLM",
+    email: "jhhan@taihan.com",
+    web: "",
+    gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2034.8227243082392!2d18.056936277049722!3d59.33591347461752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d670535d027%3A0xc99b86a21445b773!2sDrottninggatan%2086%2C%20111%2036%20Stockholm%2C%20Sweden!5e0!3m2!1sen!2sau!4v1688959131422!5m2!1sen!2sau",
+  },
+  {
+    name: "Denmark",
+    title: "Denmark Branch Office",
+    address: "Herlev Hovedgade 195, DK-2730 Herlve, Denmark",
+    email: "jhhan@taihan.com",
+    web: "",
+    gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2246.9503463054084!2d12.422665076810063!3d55.72461507307379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652504f4fa6ab03%3A0x95dfe06f70335ef8!2sHerlev%20Hovedgade%20195%2C%202730%20Herlev%2C%20Denmark!5e0!3m2!1sen!2sau!4v1688959450898!5m2!1sen!2sau",
   },
 ];
 
