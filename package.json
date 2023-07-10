@@ -1,7 +1,7 @@
 {
   "name": "ryanpark8",
   "version": "0.1.0",
-  "homepage": "http://taihan.com.au/",
+  "homepage": ".",
   "private": true,
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
