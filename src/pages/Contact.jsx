@@ -143,7 +143,7 @@ export default class Contact extends React.Component {
                       <Bold>Taihan New Zealand Limited</Bold>
                     </Paragraph>
                     <Paragraph>
-                      Suite 7, 325 Ti Rakau Drive, <br /> Burswood, Auckland,
+                      Suite 7, 325 Ti Rakau Drive, <br />Burswood, Auckland,
                       New Zealand 2013
                     </Paragraph>
                     <Paragraph>
