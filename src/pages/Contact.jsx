@@ -120,8 +120,8 @@ export default class Contact extends React.Component {
                       <br /> Chatswood NSW 2067 Australia
                     </Paragraph>
                     <Paragraph>
-                      <BoldText>p</BoldText> +61 (0)2 9411 7564 <br />
-                      <BoldText>f</BoldText> +61 (0)2 9411 7579 <br />
+                      <BoldText>p</BoldText> +61-2-9411-7564<br />
+                      <BoldText>f</BoldText> +61-2-9411-7579<br />
                       <BoldText>e</BoldText> sales@taihan.com.au <br />
                       &nbsp;&nbsp;&nbsp;accounts@taihan.com.au
                       <br />
