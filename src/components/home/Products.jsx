@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import styled from "styled-components";
 import { color, screen } from "../../global/constant";
 import { HashLink as Link } from "react-router-hash-link";
@@ -55,7 +55,7 @@ const List = styled.div`
 `;
 
 export default () => (
-  <Fragment>
+  <>
     <Wrapper>
       <List>
         <PrimaryProduct alt="clients" src={img1} />
@@ -70,5 +70,5 @@ export default () => (
         <Link to="../pages/products#teleComunication">Telecomunication</Link>
       </List>
     </Wrapper>
-  </Fragment>
+  </>
 );
