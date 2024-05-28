@@ -123,7 +123,7 @@ export default class Contact extends React.Component {
                       <BoldText>p</BoldText> +61-2-9411-7564<br />
                       <BoldText>f</BoldText> +61-2-9411-7579<br />
                       <BoldText>e</BoldText> sales@taihan.com.au <br />
-                      &nbsp;&nbsp;&nbsp;accounts@taihan.com.au
+                   
                       <br />
                       <br />
                       <MapLink href={mapUrl} target="_blank">
