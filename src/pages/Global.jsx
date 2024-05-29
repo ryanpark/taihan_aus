@@ -475,7 +475,7 @@ export default class Global extends React.Component {
                         </Line>
                         <Line>
                           T +61-2-9411-7564 <br />F +61-2-9411-7579 <br /> E
-                          jameskim@taihan.com
+                          sales@taihan.com.au
                         </Line>
                       </td>
                     </tr>
@@ -831,7 +831,7 @@ export default class Global extends React.Component {
                         </Line>
                         <Line>
                           T +61-2-9411-7564 <br />F +61-2-9411-7579 <br /> E
-                          jameskim@taihan.com
+                          sales@taihan.com.au
                         </Line>
                       </td>
                     </tr>
