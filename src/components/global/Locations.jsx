@@ -13,7 +13,7 @@ const locations = [
     name: "Auckland",
     title: "New Zealand Branch Office",
     address: "7/325 Ti Rakau Drive, Burswood, Auckland 2013, New Zealand",
-    tel: "+64-9-973-5062",
+    tel: "+64-27-653-2359",
     fax: "",
     email: "c.kim@taihan.co.nz | sales@taihan.co.nz",
     web: "www.taihan.co.nz",

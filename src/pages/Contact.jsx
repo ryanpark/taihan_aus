@@ -30,7 +30,7 @@ const Information = styled.div`
 `;
 
 const InformationNz = styled.div`
-background: ${color.blue};
+  background: ${color.blue};
   background-image: url("${MapNZ}");
   padding: 20px;
   height: 400px;
@@ -147,7 +147,7 @@ export default class Contact extends React.Component {
                       New Zealand 2013
                     </Paragraph>
                     <Paragraph>
-                      <BoldText>p</BoldText> +64 (9) 973 5062 <br />
+                      <BoldText>p</BoldText> +64-27-653-2359 <br />
                       <BoldText>e</BoldText> c.kim@taihan.co.nz <br />
                       &nbsp;&nbsp;&nbsp;sales@taihan.co.nz
                       <br />
@@ -196,7 +196,7 @@ export default class Contact extends React.Component {
                     Zealand 2013
                   </Paragraph>
                   <Paragraph>
-                    <BoldText>p</BoldText> +64 (9) 973 5062 <br />
+                    <BoldText>p</BoldText> +64-27-653-2359 <br />
                     <BoldText>e</BoldText> c.kim@taihan.co.nz <br />
                     &nbsp;&nbsp;&nbsp;sales@taihan.co.nz
                     <br />

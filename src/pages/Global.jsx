@@ -516,7 +516,7 @@ export default class Global extends React.Component {
                           <br /> Auckland 2013, New Zealand
                         </Line>
                         <Line>
-                          T +64-9-973-5062
+                          T +64-27-653-2359
                           <br />E c.kim@taihan.co.nz
                         </Line>
                       </td>
@@ -874,7 +874,7 @@ export default class Global extends React.Component {
                           <br /> Auckland 2013, New Zealand
                         </Line>
                         <Line>
-                          T +64-9-973-5062
+                          T +64-27-653-2359
                           <br />E c.kim@taihan.co.nz
                         </Line>
                       </td>
