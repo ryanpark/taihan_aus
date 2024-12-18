@@ -70,7 +70,7 @@ const Wrapper = styled.div`
 const BoldText = styled.span`
   font-weight: bold;
 `;
-const mapUrl = "https://goo.gl/maps/g4dW1jqXnyB2";
+const mapUrl = "https://www.google.com/maps/place/12+Help+St,+Chatswood+NSW+2067/@-33.7963544,151.173958,17z/data=!3m1!4b1!4m6!3m5!1s0x6b12a8d3a547f8d5:0x23bfd725e799afff!8m2!3d-33.7963545!4d151.1788289!16s%2Fg%2F11bytp4kg3?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D";
 const nzMapUrl = "https://goo.gl/maps/X6JYB75EyL32";
 
 const MapLink = styled.a`
