@@ -7,7 +7,7 @@ const locations = [
     fax: "+61-2-9411-7579",
     email: "sales@taihan.com.au",
     web: "www.taihan.com.au",
-    gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.635354193816!2d151.17632161520825!3d-33.79591348067639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a8d3b4038209%3A0xe6baa81defe80936!2s704%2F815+Pacific+Hwy%2C+Chatswood+NSW+2067!5e0!3m2!1sen!2sau!4v1547979957139",
+    gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.6182727873143!2d151.1762539771843!3d-33.796354473254375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a8d3a547f8d5%3A0x23bfd725e799afff!2s12%20Help%20St%2C%20Chatswood%20NSW%202067!5e0!3m2!1sen!2sau!4v1734481837917!5m2!1sen!2sau",
   },
   {
     name: "Auckland",
