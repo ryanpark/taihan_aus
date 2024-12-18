@@ -2,7 +2,7 @@ const locations = [
   {
     name: "Sydney",
     title: "Australia Branch Office",
-    address: "Suite 704, 815 Pacific Highway, Chatswood, NSW2067, Australia",
+    address: "Suite 11.06, 12 Help Street, Chatswood NSW 2067 , Australia",
     tel: "+61-2-9411-7564",
     fax: "+61-2-9411-7579",
     email: "sales@taihan.com.au",

@@ -116,7 +116,7 @@ export default class Contact extends React.Component {
                       <Bold>Taihan Electric Australia Pty Ltd</Bold>
                     </Paragraph>
                     <Paragraph>
-                      Suite 704, 815 Pacific Highway,
+                    Suite 11.06, 12 Help Street,
                       <br /> Chatswood NSW 2067 Australia
                     </Paragraph>
                     <Paragraph>
@@ -171,7 +171,7 @@ export default class Contact extends React.Component {
                     <Bold>Taihan Electric Australia Pty Ltd</Bold>
                   </Paragraph>
                   <Paragraph>
-                    Suite 704, 815 Pacific Highway,
+                  Suite 11.06, 12 Help Street,
                     <br /> Chatswood NSW 2067 Australia
                   </Paragraph>
                   <Paragraph>

@@ -469,7 +469,7 @@ export default class Global extends React.Component {
                           <strong>Australia</strong>
                         </Line>
                         <Line>
-                          Suite 704, 815 Pacific Highway, <br />
+                        Suite 11.06, 12 Help Street,<br />
                           Chatswood, NSW 2067, Australia
                           <br />
                         </Line>
@@ -825,7 +825,7 @@ export default class Global extends React.Component {
                           <strong>Australia</strong>
                         </Line>
                         <Line>
-                          Suite 704, 815 Pacific Highway, <br />
+                        Suite 11.06, 12 Help Street, <br />
                           Chatswood, NSW 2067, Australia
                           <br />
                         </Line>
