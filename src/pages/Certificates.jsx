@@ -349,7 +349,9 @@ export default class Certificates extends React.Component {
             <List>
               <Img src={jazIso} />
               <Details>
-                <P>ISO 45001</P>
+                <P>ISO 45001: 2018 </P>
+                <br />
+                <P>Cert. No 765655 </P>
               </Details>
             </List>
             <List></List>

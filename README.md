@@ -1,6 +1,6 @@
-## Taihan Australia Website
+## Taihan Australia Web
 
-www.taihan.com.au 
+www.taihan.com.au
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

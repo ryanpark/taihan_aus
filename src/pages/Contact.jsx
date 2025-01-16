@@ -117,14 +117,15 @@ export default class Contact extends React.Component {
                       <Bold>Taihan Electric Australia Pty Ltd</Bold>
                     </Paragraph>
                     <Paragraph>
-                      Suite 704, 815 Pacific Highway,
+                      Suite 11.06, 12 Help Street,
                       <br /> Chatswood NSW 2067 Australia
                     </Paragraph>
                     <Paragraph>
-                      <BoldText>p</BoldText> +61 (0)2 9411 7564 <br />
-                      <BoldText>f</BoldText> +61 (0)2 9411 7579 <br />
+                      <BoldText>p</BoldText> +61-2-9411-7564
+                      <br />
+                      <BoldText>f</BoldText> +61-2-9411-7579
+                      <br />
                       <BoldText>e</BoldText> sales@taihan.com.au <br />
-                      &nbsp;&nbsp;&nbsp;accounts@taihan.com.au
                       <br />
                       <br />
                       <MapLink href={mapUrl} target="_blank">
@@ -144,8 +145,8 @@ export default class Contact extends React.Component {
                       <Bold>Taihan New Zealand Limited</Bold>
                     </Paragraph>
                     <Paragraph>
-                      Suite 7, 325 Ti Rakau Drive, <br /> Burswood, Auckland,
-                      New Zealand 2013
+                      Suite 7, 325 Ti Rakau Drive, <br />
+                      Burswood, Auckland, New Zealand 2013
                     </Paragraph>
                     <Paragraph>
                       <BoldText>p</BoldText> +64-27-653-2359 <br />
@@ -172,7 +173,7 @@ export default class Contact extends React.Component {
                     <Bold>Taihan Electric Australia Pty Ltd</Bold>
                   </Paragraph>
                   <Paragraph>
-                    Suite 704, 815 Pacific Highway,
+                    Suite 11.06, 12 Help Street,
                     <br /> Chatswood NSW 2067 Australia
                   </Paragraph>
                   <Paragraph>

@@ -2,12 +2,12 @@ const locations = [
   {
     name: "Sydney",
     title: "Australia Branch Office",
-    address: "Suite 704, 815 Pacific Highway, Chatswood, NSW2067, Australia",
+    address: "Suite 11.06, 12 Help Street, Chatswood NSW 2067 , Australia",
     tel: "+61-2-9411-7564",
-    fax: " +61-2-9411-7579",
+    fax: "+61-2-9411-7579",
     email: "sales@taihan.com.au",
     web: "www.taihan.com.au",
-    gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.618271751343!2d151.17882889999998!3d-33.7963545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a8d3b5b61cdf%3A0xad00a21fa350068d!2sTaihan%20Electric%20Australia%20Pty%20Ltd!5e0!3m2!1sen!2sau!4v1737024512074!5m2!1sen!2sau",
+    gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.618271751343!2d151.17882889999998!3d-33.7963545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a8d3b5b61cdf%3A0xad00a21fa350068d!2sTaihan%20Electric%20Australia%20Pty%20Ltd!5e0!3m2!1sen!2sau!4v1737026595568!5m2!1sen!2sau",
   },
   {
     name: "Auckland",
