@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { color, screen } from "../global/constant";
-import Map from "../components/contact/bgMap.jpg";
+import Map from "../components/contact/bgMap.png";
 import MapNZ from "../components/contact/bgMapNZ.jpg";
 import Iframe from "react-iframe";
 import MediaQuery from "react-responsive";
@@ -22,7 +22,7 @@ const Information = styled.div`
   height: 400px;
   background-position: center bottom;
   color: ${color.blue};
-  background-size: cover;
+  background-size: auto;
 
   @media ${screen.mdUp} {
     padding: 100px 50px 40px 50px;
@@ -70,7 +70,8 @@ const Wrapper = styled.div`
 const BoldText = styled.span`
   font-weight: bold;
 `;
-const mapUrl = "https://goo.gl/maps/g4dW1jqXnyB2";
+const mapUrl =
+  "https://www.google.com/maps/place/Taihan+Electric+Australia+Pty+Ltd/@-33.7963545,151.1788289,17z/data=!3m1!4b1!4m6!3m5!1s0x6b12a8d3b5b61cdf:0xad00a21fa350068d!8m2!3d-33.7963545!4d151.1788289!16s%2Fg%2F11cls6cdy8?hl=en&entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D";
 const nzMapUrl = "https://goo.gl/maps/X6JYB75EyL32";
 
 const MapLink = styled.a`
